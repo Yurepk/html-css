@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: lightgray;
+}
+
+.dv1{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px 0px;
+    margin: 10px;
+}
+
+.dv2{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}

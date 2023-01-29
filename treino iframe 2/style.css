@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+div.video{
+    background-color: rgb(226, 226, 190);
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}

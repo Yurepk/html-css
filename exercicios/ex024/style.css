@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+header{
+    background-color: #223535;
+    padding: 10px;
+    color: #45a2a8;
+    margin-bottom: 10px;
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.411);
+}
+body{
+    background-color: #172424;
+}
+
+main{
+    background-color: rgb(172, 162, 162);
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow:9px 9px 15px #101a1a;
+    margin-bottom: 50px;
+}
+
+a.esporte{
+    text-decoration: none;
+    color: rgb(10, 139, 10);
+}
+
+a.esporte:hover{
+    color: #ce961f;
+    font-weight: bold;
+}
+
+a.main{
+    color: #6495ed;
+    text-decoration: none;
+}
+
+a.main:hover{
+    color: #76b813;
+    font-weight: bold;
+}
+
+a.receita{
+    color: #cf980c;
+    text-decoration: none;
+}
+
+a.receita:hover{
+    color: #5a0f91;
+    font-weight: bold;
+}
+
+a.download{
+    color: #c71236;
+    text-decoration: none;
+}
+
+a.download:hover{
+    color: #2f4f4f;
+    font-weight: bold;
+}
+
+section#esportes{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+section#noticias{
+    color: #000000;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #000000;
+    margin: 0px;
+    padding: 4px;
+    color: white;
+    text-align: center;
+}
+
+footer > p{
+    margin: 0px;
+}

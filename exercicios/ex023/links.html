@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        a{
+            color: rgb(0, 0, 0);
+            font: normal 400 1.5em Arial, Helvetica, sans-serif;
+        }
+        a:active{
+            color: gold;
+        }
+
+        a:visited{
+            color: darkblue;
+        }
+        a:hover{
+            color: rgb(255, 0, 221);
+        }
+        
+        body{
+            background-color: lightgray;
+        }
+        .video{
+            background-color: darkred;
+        }
+
+        .video::before{
+            content: " >";
+        }
+
+        .video::after{
+            content: " <";
+        }
+
+        .image{
+            background-color: rgb(92, 141, 42);
+        }
+
+        .image::before{
+            content: " []";
+        }
+
+        .image::after{
+            content: " []";
+        }
+
+        .color::after{
+            content: " ###";
+        }
+
+        .color::before{
+            content: " ###";
+        }
+
+        .color{
+            background-color: rgb(190, 168, 43);
+        }
+    </style>
+</head>
+<body>
+    <ul type="disk">
+        <li>
+            <a href="https://www.youtube.com/" class="video">Acessar youtube</a>
+        </li>
+        <li>
+            <a href="https://color.adobe.com/pt/create/color-wheel" class="color">Acessar Adobe</a>
+
+        </li>
+        <li>
+            <a href="https://www.pexels.com" class="image">Acessar Pexels</a>
+        </li>
+    </ul>
+</body>
+</html>
