@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: rug;
+    src: url('../fonts/LLRUG_1_4.otf') format('opentype'),
+    url('../fonts/LLRUG_1_4.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300&display=swap');
+:root{
+    --fonte-principal: 'rug', verdana, sans-serif;
+    --fonte-cordel: 'Passion One', cursive, sans-serif;
+    --fonte-link: font-family: 'Roboto Serif', serif;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+    padding: 60px 10px 125px 10px;
+    background-color: #A78C57;
+    max-width: 1070px;
+    margin: auto;
+}
+
+img.header{
+    width: 20%;
+    position: absolute;
+    right: 65vw;
+    bottom: 79vh;
+}
+
+body{
+    background-image: url(../Imagens/fundo.jpg);
+    background-size: cover;
+}
+
+main{
+
+    background-color: #B7A074;
+    padding: 10px;
+    margin: auto;
+    max-width: 1070px;
+}
+
+
+section h1#principal{
+    font-family: rug;
+    font-weight: lighter;
+    font-size: 2em;
+    color: #a70c19;
+    text-indent: 28px;
+    padding: 30px 30px 30px 30px;
+}
+
+section h2#secund{
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-indent: 43px;
+    color: #7a1d14;
+}
+
+section p#autor{
+    font-family: var(--fonte-link);
+    padding: 10px;
+    text-indent: 43px;
+}
+
+div{
+    font-family: var(--fonte-cordel);
+    font-weight: 500;
+    font-size: 0.9em;
+    text-align: justify;
+    padding: 10px 10px 10px 60px;
+    line-height: 1.5em;
+}
+
+p#link{
+    font-family: var(--fonte-link);
+    font-weight: 600;
+    position: absolute;
+    margin-bottom: 30px;
+    text-indent: 24px;
+    padding-left: 30px;
+    top: 38vh;
+}
+
+a{
+    text-decoration: none;
+    color: #97160a;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #b32013;
+}
+
+section img{
+    padding: 40px 0px 10px 50px;
+}
+
