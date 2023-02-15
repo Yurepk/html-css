@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="´t-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Teste Formulario</h1>
+    <form action="">
+
+        <fieldset>
+            <p>
+                <label for="imasc">Masculino</label>
+                <input type="radio" name="sexo" id="imasc">
+                <br>
+                <label for="ifem">Feminino</label>
+                <input type="radio" name="sexo" id="ifem">
+                <br>
+                <label for="idnac">Selecione a nacionalidade:</label>
+                <select name="nac" id="idnac">
+                    <optgroup label="America do Sul">
+                        <option value="BR">Brasil</option>
+                        <option value="AG">Argentina</option>
+                        <option value="Co">Colombia</option>
+                        <option value="Pe">Peru</option>
+                    </optgroup>
+                    <optgroup label="America do Norte">
+                        <option value="EUA">EUA</option>
+                        <option value="CN">Canada</option>
+                        <option value="ME">Mexico</option>
+                    </optgroup>
+                    <optgroup label="Asia Oriental">
+                        <option value="JP">Japão</option>
+                        <option value="NK">Korea do norte</option>
+                        <option value="CH">China</option>
+                    </optgroup>
+                </select>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Selecione uma cor:</legend>
+            <p>
+                <label for="idcor">Selecione uma cor</label>
+                <input type="color" name="cor" id="idcor">
+                <label for="idimg">Selecione uma imagem</label> <br>
+                <br>
+                <input type="file" name="img" id="idimg">
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <p>
+                <label for="idfut">Futebol</label>
+                <input type="checkbox" name="fut" id="idfut"> <br>
+                <label for="idvolei">Volei</label>
+                <input type="checkbox" name="volei" id="idvolei"> <br>
+                <label for="idbasquete">Basquete</label>
+                <input type="checkbox" name="basquete" id="idbasquete">
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Niveis de Praticidade</legend>
+            <p>
+                <label for="idnfut">Nivel de Futebol</label>
+                <input type="range" name="nfut" id="idnfut" required min="0" max="10"> <br>
+                <label for="idnvolei">Nivel de Volei</label>
+                <input type="range" name="nvolei" id="idnvolei" required min="0" max="10"> <br>
+                <label for="idnbasquete">Nivel de Basquete</label>
+                <input type="range" name="nbasquete" id="idnbasquete" required min="0" max="10">
+            </p>
+        </fieldset>
+        
+
+        <p><input type="submit" value="Enviar">
+        <input type="reset" value="Limpar"></p>
+    </form>
+</body>
+</html>
